@@ -1,0 +1,91 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styles for dark mode */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+    line-height: 1.6;
+  }
+  
+  /* Header styling */
+  header {
+    padding: 15px 20px;
+    text-align: center;
+    border-bottom: 4px solid #444;
+  }
+  
+  header h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #f0f0f0;
+  }
+  
+  /* Main content and form */
+  main {
+    padding: 20px;
+    max-width: 600px;
+    margin: 20px auto;
+    background: #1a1a1a;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+  }
+  
+  /* Form field styling */
+  form label {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  form input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px;
+    border: 1px solid #555;
+    border-radius: 4px;
+    background: #333;
+    color: #fff;
+  }
+  
+  form input:focus {
+    border-color: #0073e6;
+    outline: none;
+  }
+  
+  /* Button styling */
+  button {
+    padding: 10px 15px;
+    margin: 10px 5px;
+    background-color: #0073e6;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  button a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  button:hover {
+    background-color: #005bb5;
+  }
+  
+  button a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Paragraph link information */
+  p {
+    margin-top: 15px;
+    font-size: 1rem;
+  }
+  
